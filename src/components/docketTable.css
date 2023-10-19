@@ -1,0 +1,29 @@
+/* styles.css */
+
+.docket-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .docket-table th, .docket-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .docket-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .docket-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .docket-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .nm{
+    text-align: center;
+  }
